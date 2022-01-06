@@ -1,0 +1,450 @@
+{
+  "fncs": {
+    "main": {
+      "initloc": 1,
+      "locdescs": {
+        "1": "at the beginning of the function 'main'"
+      },
+      "locexprs": {
+        "1": [
+          [
+            "a",
+            {
+              "line": 2,
+              "original": null,
+              "statement": false,
+              "tokentype": "Constant",
+              "value": "3"
+            }
+          ],
+          [
+            "b",
+            {
+              "line": 2,
+              "original": null,
+              "statement": false,
+              "tokentype": "Constant",
+              "value": "4"
+            }
+          ],
+          [
+            "i1",
+            {
+              "args": [
+                {
+                  "line": 3,
+                  "name": "a",
+                  "original": null,
+                  "primed": true,
+                  "statement": false,
+                  "tokentype": "Variable"
+                },
+                {
+                  "line": 3,
+                  "name": "b",
+                  "original": null,
+                  "primed": true,
+                  "statement": false,
+                  "tokentype": "Variable"
+                }
+              ],
+              "line": 3,
+              "name": "+",
+              "original": null,
+              "statement": false,
+              "tokentype": "Operation"
+            }
+          ],
+          [
+            "i2",
+            {
+              "args": [
+                {
+                  "line": 4,
+                  "name": "a",
+                  "original": null,
+                  "primed": true,
+                  "statement": false,
+                  "tokentype": "Variable"
+                },
+                {
+                  "line": 4,
+                  "name": "b",
+                  "original": null,
+                  "primed": true,
+                  "statement": false,
+                  "tokentype": "Variable"
+                }
+              ],
+              "line": 4,
+              "name": "-",
+              "original": null,
+              "statement": false,
+              "tokentype": "Operation"
+            }
+          ],
+          [
+            "i3",
+            {
+              "args": [
+                {
+                  "line": 5,
+                  "name": "a",
+                  "original": null,
+                  "primed": true,
+                  "statement": false,
+                  "tokentype": "Variable"
+                },
+                {
+                  "line": 5,
+                  "name": "b",
+                  "original": null,
+                  "primed": true,
+                  "statement": false,
+                  "tokentype": "Variable"
+                }
+              ],
+              "line": 5,
+              "name": "*",
+              "original": null,
+              "statement": false,
+              "tokentype": "Operation"
+            }
+          ],
+          [
+            "i4",
+            {
+              "args": [
+                {
+                  "line": 6,
+                  "name": "a",
+                  "original": null,
+                  "primed": true,
+                  "statement": false,
+                  "tokentype": "Variable"
+                },
+                {
+                  "line": 6,
+                  "name": "b",
+                  "original": null,
+                  "primed": true,
+                  "statement": false,
+                  "tokentype": "Variable"
+                }
+              ],
+              "line": 6,
+              "name": "/",
+              "original": null,
+              "statement": false,
+              "tokentype": "Operation"
+            }
+          ],
+          [
+            "i5",
+            {
+              "args": [
+                {
+                  "line": 7,
+                  "name": "a",
+                  "original": null,
+                  "primed": true,
+                  "statement": false,
+                  "tokentype": "Variable"
+                },
+                {
+                  "line": 7,
+                  "name": "b",
+                  "original": null,
+                  "primed": true,
+                  "statement": false,
+                  "tokentype": "Variable"
+                }
+              ],
+              "line": 7,
+              "name": "%",
+              "original": null,
+              "statement": false,
+              "tokentype": "Operation"
+            }
+          ],
+          [
+            "c",
+            {
+              "line": 8,
+              "original": null,
+              "statement": false,
+              "tokentype": "Constant",
+              "value": "3.0"
+            }
+          ],
+          [
+            "d",
+            {
+              "line": 8,
+              "original": null,
+              "statement": false,
+              "tokentype": "Constant",
+              "value": "4.0"
+            }
+          ],
+          [
+            "d1",
+            {
+              "args": [
+                {
+                  "line": 9,
+                  "name": "c",
+                  "original": null,
+                  "primed": true,
+                  "statement": false,
+                  "tokentype": "Variable"
+                },
+                {
+                  "line": 9,
+                  "name": "d",
+                  "original": null,
+                  "primed": true,
+                  "statement": false,
+                  "tokentype": "Variable"
+                }
+              ],
+              "line": 9,
+              "name": "+",
+              "original": null,
+              "statement": false,
+              "tokentype": "Operation"
+            }
+          ],
+          [
+            "d2",
+            {
+              "args": [
+                {
+                  "line": 10,
+                  "name": "c",
+                  "original": null,
+                  "primed": true,
+                  "statement": false,
+                  "tokentype": "Variable"
+                },
+                {
+                  "line": 10,
+                  "name": "d",
+                  "original": null,
+                  "primed": true,
+                  "statement": false,
+                  "tokentype": "Variable"
+                }
+              ],
+              "line": 10,
+              "name": "-",
+              "original": null,
+              "statement": false,
+              "tokentype": "Operation"
+            }
+          ],
+          [
+            "d3",
+            {
+              "args": [
+                {
+                  "line": 11,
+                  "name": "c",
+                  "original": null,
+                  "primed": true,
+                  "statement": false,
+                  "tokentype": "Variable"
+                },
+                {
+                  "line": 11,
+                  "name": "d",
+                  "original": null,
+                  "primed": true,
+                  "statement": false,
+                  "tokentype": "Variable"
+                }
+              ],
+              "line": 11,
+              "name": "*",
+              "original": null,
+              "statement": false,
+              "tokentype": "Operation"
+            }
+          ],
+          [
+            "d4",
+            {
+              "args": [
+                {
+                  "line": 12,
+                  "name": "c",
+                  "original": null,
+                  "primed": true,
+                  "statement": false,
+                  "tokentype": "Variable"
+                },
+                {
+                  "line": 12,
+                  "name": "d",
+                  "original": null,
+                  "primed": true,
+                  "statement": false,
+                  "tokentype": "Variable"
+                }
+              ],
+              "line": 12,
+              "name": "/",
+              "original": null,
+              "statement": false,
+              "tokentype": "Operation"
+            }
+          ],
+          [
+            "id1",
+            {
+              "args": [
+                {
+                  "line": 13,
+                  "name": "a",
+                  "original": null,
+                  "primed": true,
+                  "statement": false,
+                  "tokentype": "Variable"
+                },
+                {
+                  "line": 13,
+                  "name": "d",
+                  "original": null,
+                  "primed": true,
+                  "statement": false,
+                  "tokentype": "Variable"
+                }
+              ],
+              "line": 13,
+              "name": "+",
+              "original": null,
+              "statement": false,
+              "tokentype": "Operation"
+            }
+          ],
+          [
+            "id2",
+            {
+              "args": [
+                {
+                  "line": 14,
+                  "name": "a",
+                  "original": null,
+                  "primed": true,
+                  "statement": false,
+                  "tokentype": "Variable"
+                },
+                {
+                  "line": 14,
+                  "name": "d",
+                  "original": null,
+                  "primed": true,
+                  "statement": false,
+                  "tokentype": "Variable"
+                }
+              ],
+              "line": 14,
+              "name": "-",
+              "original": null,
+              "statement": false,
+              "tokentype": "Operation"
+            }
+          ],
+          [
+            "id3",
+            {
+              "args": [
+                {
+                  "line": 15,
+                  "name": "a",
+                  "original": null,
+                  "primed": true,
+                  "statement": false,
+                  "tokentype": "Variable"
+                },
+                {
+                  "line": 15,
+                  "name": "d",
+                  "original": null,
+                  "primed": true,
+                  "statement": false,
+                  "tokentype": "Variable"
+                }
+              ],
+              "line": 15,
+              "name": "*",
+              "original": null,
+              "statement": false,
+              "tokentype": "Operation"
+            }
+          ],
+          [
+            "id4",
+            {
+              "args": [
+                {
+                  "line": 16,
+                  "name": "a",
+                  "original": null,
+                  "primed": true,
+                  "statement": false,
+                  "tokentype": "Variable"
+                },
+                {
+                  "line": 16,
+                  "name": "d",
+                  "original": null,
+                  "primed": true,
+                  "statement": false,
+                  "tokentype": "Variable"
+                }
+              ],
+              "line": 16,
+              "name": "/",
+              "original": null,
+              "statement": false,
+              "tokentype": "Operation"
+            }
+          ]
+        ]
+      },
+      "loctrans": {
+        "1": {
+          "false": null,
+          "true": null
+        }
+      },
+      "name": "main",
+      "params": [],
+      "rettype": "int",
+      "tokentype": "Function",
+      "types": {
+        "a": "int",
+        "b": "int",
+        "c": "float",
+        "d": "float",
+        "d1": "float",
+        "d2": "float",
+        "d3": "float",
+        "d4": "float",
+        "i1": "int",
+        "i2": "int",
+        "i3": "int",
+        "i4": "int",
+        "i5": "int",
+        "id1": "float",
+        "id2": "float",
+        "id3": "float",
+        "id4": "float"
+      }
+    }
+  },
+  "meta": {},
+  "tokentype": "Program",
+  "warns": []
+}

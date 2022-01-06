@@ -1,0 +1,330 @@
+ {
+        "fncs": {
+            "main": {
+                "initloc": 1,
+                "locdescs": {
+                    "1": "at the beginning of the function 'main'"
+                },
+                "locexprs": {
+                    "1": [
+                        [
+                            "a",
+                            {
+                                "args": [
+                                    {
+                                        "line": null,
+                                        "original": null,
+                                        "statement": false,
+                                        "tokentype": "Constant",
+                                        "value": "float"
+                                    },
+                                    {
+                                        "line": null,
+                                        "name": "$in",
+                                        "original": null,
+                                        "primed": false,
+                                        "statement": false,
+                                        "tokentype": "Variable"
+                                    }
+                                ],
+                                "line": 5,
+                                "name": "ListHead",
+                                "original": null,
+                                "statement": false,
+                                "tokentype": "Operation"
+                            }
+                        ],
+                        [
+                            "$in",
+                            {
+                                "args": [
+                                    {
+                                        "line": null,
+                                        "name": "$in",
+                                        "original": null,
+                                        "primed": false,
+                                        "statement": false,
+                                        "tokentype": "Variable"
+                                    }
+                                ],
+                                "line": 5,
+                                "name": "ListTail",
+                                "original": null,
+                                "statement": false,
+                                "tokentype": "Operation"
+                            }
+                        ],
+                        [
+                            "$out",
+                            {
+                                "args": [
+                                    {
+                                        "args": [
+                                            {
+                                                "line": 6,
+                                                "name": "a",
+                                                "original": null,
+                                                "primed": true,
+                                                "statement": false,
+                                                "tokentype": "Variable"
+                                            },
+                                            {
+                                                "line": 6,
+                                                "original": null,
+                                                "statement": false,
+                                                "tokentype": "Constant",
+                                                "value": "0"
+                                            }
+                                        ],
+                                        "line": 6,
+                                        "name": "==",
+                                        "original": null,
+                                        "statement": false,
+                                        "tokentype": "Operation"
+                                    },
+                                    {
+                                        "args": [
+                                            {
+                                                "line": null,
+                                                "name": "$out",
+                                                "original": null,
+                                                "primed": false,
+                                                "statement": false,
+                                                "tokentype": "Variable"
+                                            },
+                                            {
+                                                "args": [
+                                                    {
+                                                        "line": 7,
+                                                        "original": null,
+                                                        "statement": false,
+                                                        "tokentype": "Constant",
+                                                        "value": "\"input is zero\""
+                                                    }
+                                                ],
+                                                "line": 7,
+                                                "name": "StrFormat",
+                                                "original": null,
+                                                "statement": false,
+                                                "tokentype": "Operation"
+                                            }
+                                        ],
+                                        "line": 7,
+                                        "name": "StrAppend",
+                                        "original": null,
+                                        "statement": false,
+                                        "tokentype": "Operation"
+                                    },
+                                    {
+                                        "args": [
+                                            {
+                                                "args": [
+                                                    {
+                                                        "args": [
+                                                            {
+                                                                "args": [
+                                                                    {
+                                                                        "args": [
+                                                                            {
+                                                                                "line": 10,
+                                                                                "name": "a",
+                                                                                "original": null,
+                                                                                "primed": true,
+                                                                                "statement": false,
+                                                                                "tokentype": "Variable"
+                                                                            },
+                                                                            {
+                                                                                "line": 10,
+                                                                                "original": null,
+                                                                                "statement": false,
+                                                                                "tokentype": "Constant",
+                                                                                "value": "0"
+                                                                            }
+                                                                        ],
+                                                                        "line": 10,
+                                                                        "name": "<",
+                                                                        "original": null,
+                                                                        "statement": false,
+                                                                        "tokentype": "Operation"
+                                                                    },
+                                                                    {
+                                                                        "args": [
+                                                                            {
+                                                                                "line": null,
+                                                                                "name": "$out",
+                                                                                "original": null,
+                                                                                "primed": false,
+                                                                                "statement": false,
+                                                                                "tokentype": "Variable"
+                                                                            },
+                                                                            {
+                                                                                "args": [
+                                                                                    {
+                                                                                        "line": 11,
+                                                                                        "original": null,
+                                                                                        "statement": false,
+                                                                                        "tokentype": "Constant",
+                                                                                        "value": "\"%.4f\""
+                                                                                    },
+                                                                                    {
+                                                                                        "line": 11,
+                                                                                        "name": "a",
+                                                                                        "original": null,
+                                                                                        "primed": true,
+                                                                                        "statement": false,
+                                                                                        "tokentype": "Variable"
+                                                                                    }
+                                                                                ],
+                                                                                "line": 11,
+                                                                                "name": "StrFormat",
+                                                                                "original": null,
+                                                                                "statement": false,
+                                                                                "tokentype": "Operation"
+                                                                            }
+                                                                        ],
+                                                                        "line": 11,
+                                                                        "name": "StrAppend",
+                                                                        "original": null,
+                                                                        "statement": false,
+                                                                        "tokentype": "Operation"
+                                                                    },
+                                                                    {
+                                                                        "line": null,
+                                                                        "name": "$out",
+                                                                        "original": null,
+                                                                        "primed": false,
+                                                                        "statement": false,
+                                                                        "tokentype": "Variable"
+                                                                    }
+                                                                ],
+                                                                "line": null,
+                                                                "name": "ite",
+                                                                "original": [
+                                                                    "$out",
+                                                                    6
+                                                                ],
+                                                                "statement": false,
+                                                                "tokentype": "Operation"
+                                                            },
+                                                            {
+                                                                "args": [
+                                                                    {
+                                                                        "line": 12,
+                                                                        "original": null,
+                                                                        "statement": false,
+                                                                        "tokentype": "Constant",
+                                                                        "value": "\" is negative\""
+                                                                    }
+                                                                ],
+                                                                "line": 12,
+                                                                "name": "StrFormat",
+                                                                "original": null,
+                                                                "statement": false,
+                                                                "tokentype": "Operation"
+                                                            }
+                                                        ],
+                                                        "line": 12,
+                                                        "name": "StrAppend",
+                                                        "original": [
+                                                            "$out",
+                                                            7
+                                                        ],
+                                                        "statement": false,
+                                                        "tokentype": "Operation"
+                                                    },
+                                                    {
+                                                        "args": [
+                                                            {
+                                                                "line": 14,
+                                                                "original": null,
+                                                                "statement": false,
+                                                                "tokentype": "Constant",
+                                                                "value": "\"%.4f\""
+                                                            },
+                                                            {
+                                                                "line": 14,
+                                                                "name": "a",
+                                                                "original": null,
+                                                                "primed": true,
+                                                                "statement": false,
+                                                                "tokentype": "Variable"
+                                                            }
+                                                        ],
+                                                        "line": 14,
+                                                        "name": "StrFormat",
+                                                        "original": null,
+                                                        "statement": false,
+                                                        "tokentype": "Operation"
+                                                    }
+                                                ],
+                                                "line": 14,
+                                                "name": "StrAppend",
+                                                "original": [
+                                                    "$out",
+                                                    8
+                                                ],
+                                                "statement": false,
+                                                "tokentype": "Operation"
+                                            },
+                                            {
+                                                "args": [
+                                                    {
+                                                        "line": 15,
+                                                        "original": null,
+                                                        "statement": false,
+                                                        "tokentype": "Constant",
+                                                        "value": "\" is positive\""
+                                                    }
+                                                ],
+                                                "line": 15,
+                                                "name": "StrFormat",
+                                                "original": null,
+                                                "statement": false,
+                                                "tokentype": "Operation"
+                                            }
+                                        ],
+                                        "line": 15,
+                                        "name": "StrAppend",
+                                        "original": null,
+                                        "statement": false,
+                                        "tokentype": "Operation"
+                                    }
+                                ],
+                                "line": null,
+                                "name": "ite",
+                                "original": null,
+                                "statement": false,
+                                "tokentype": "Operation"
+                            }
+                        ],
+                        [
+                            "$ret",
+                            {
+                                "line": 17,
+                                "original": null,
+                                "statement": false,
+                                "tokentype": "Constant",
+                                "value": "0"
+                            }
+                        ]
+                    ]
+                },
+                "loctrans": {
+                    "1": {
+                        "false": null,
+                        "true": null
+                    }
+                },
+                "name": "main",
+                "params": [],
+                "rettype": "int",
+                "tokentype": "Function",
+                "types": {
+                    "a": "float"
+                }
+            }
+        },
+        "meta": {},
+        "tokentype": "Program",
+        "warns": []
+    }

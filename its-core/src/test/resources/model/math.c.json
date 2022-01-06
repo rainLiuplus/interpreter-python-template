@@ -1,0 +1,186 @@
+{
+  "fncs": {
+    "main": {
+      "initloc": 1,
+      "locdescs": {
+        "1": "at the beginning of the function 'main'"
+      },
+      "locexprs": {
+        "1": [
+          [
+            "x",
+            {
+              "line": 4,
+              "original": null,
+              "statement": false,
+              "tokentype": "Constant",
+              "value": "2.7"
+            }
+          ],
+          [
+            "y",
+            {
+              "args": [
+                {
+                  "line": 4,
+                  "original": null,
+                  "statement": false,
+                  "tokentype": "Constant",
+                  "value": "1.3"
+                }
+              ],
+              "line": 4,
+              "name": "-",
+              "original": null,
+              "statement": false,
+              "tokentype": "Operation"
+            }
+          ],
+          [
+            "x_abs",
+            {
+              "args": [
+                {
+                  "line": 5,
+                  "name": "x",
+                  "original": null,
+                  "primed": true,
+                  "statement": false,
+                  "tokentype": "Variable"
+                }
+              ],
+              "line": 5,
+              "name": "abs",
+              "original": null,
+              "statement": false,
+              "tokentype": "Operation"
+            }
+          ],
+          [
+            "y_abs",
+            {
+              "args": [
+                {
+                  "line": 6,
+                  "name": "y",
+                  "original": null,
+                  "primed": true,
+                  "statement": false,
+                  "tokentype": "Variable"
+                }
+              ],
+              "line": 6,
+              "name": "abs",
+              "original": null,
+              "statement": false,
+              "tokentype": "Operation"
+            }
+          ],
+          [
+            "x_floor",
+            {
+              "args": [
+                {
+                  "line": 7,
+                  "name": "x",
+                  "original": null,
+                  "primed": true,
+                  "statement": false,
+                  "tokentype": "Variable"
+                }
+              ],
+              "line": 7,
+              "name": "floor",
+              "original": null,
+              "statement": false,
+              "tokentype": "Operation"
+            }
+          ],
+          [
+            "y_floor",
+            {
+              "args": [
+                {
+                  "line": 8,
+                  "name": "y",
+                  "original": null,
+                  "primed": true,
+                  "statement": false,
+                  "tokentype": "Variable"
+                }
+              ],
+              "line": 8,
+              "name": "floor",
+              "original": null,
+              "statement": false,
+              "tokentype": "Operation"
+            }
+          ],
+          [
+            "x_ceil",
+            {
+              "args": [
+                {
+                  "line": 9,
+                  "name": "x",
+                  "original": null,
+                  "primed": true,
+                  "statement": false,
+                  "tokentype": "Variable"
+                }
+              ],
+              "line": 9,
+              "name": "ceil",
+              "original": null,
+              "statement": false,
+              "tokentype": "Operation"
+            }
+          ],
+          [
+            "y_ceil",
+            {
+              "args": [
+                {
+                  "line": 10,
+                  "name": "y",
+                  "original": null,
+                  "primed": true,
+                  "statement": false,
+                  "tokentype": "Variable"
+                }
+              ],
+              "line": 10,
+              "name": "ceil",
+              "original": null,
+              "statement": false,
+              "tokentype": "Operation"
+            }
+          ]
+        ]
+      },
+      "loctrans": {
+        "1": {
+          "false": null,
+          "true": null
+        }
+      },
+      "name": "main",
+      "params": [],
+      "rettype": "int",
+      "tokentype": "Function",
+      "types": {
+        "x": "float",
+        "x_abs": "float",
+        "x_ceil": "float",
+        "x_floor": "float",
+        "y": "float",
+        "y_abs": "float",
+        "y_ceil": "float",
+        "y_floor": "float"
+      }
+    }
+  },
+  "meta": {},
+  "tokentype": "Program",
+  "warns": []
+}

@@ -1,0 +1,630 @@
+{
+    "fncs": {
+        "main": {
+            "initloc": 1,
+            "locdescs": {
+                "1": "at the beginning of the function 'main'",
+                "2": "the condition of the 'for' loop at line 6",
+                "3": "*after* the 'for' loop starting at line 6",
+                "4": "update of the 'for' loop at line 6",
+                "5": "inside the body of the 'for' loop beginning at line 7",
+                "6": "the condition of the 'for' loop at line 7",
+                "7": "*after* the 'for' loop starting at line 7",
+                "8": "update of the 'for' loop at line 7",
+                "9": "inside the body of the 'for' loop beginning at line 8",
+                "10": "the condition of the 'for' loop at line 8",
+                "11": "*after* the 'for' loop starting at line 8",
+                "12": "update of the 'for' loop at line 8",
+                "13": "inside the body of the 'for' loop beginning at line 9"
+            },
+            "locexprs": {
+                "1": [
+                    [
+                        "count",
+                        {
+                            "line": 4,
+                            "original": null,
+                            "statement": false,
+                            "tokentype": "Constant",
+                            "value": "0"
+                        }
+                    ],
+                    [
+                        "j",
+                        {
+                            "line": 4,
+                            "original": null,
+                            "statement": false,
+                            "tokentype": "Constant",
+                            "value": "1"
+                        }
+                    ],
+                    [
+                        "k",
+                        {
+                            "line": 4,
+                            "original": null,
+                            "statement": false,
+                            "tokentype": "Constant",
+                            "value": "1"
+                        }
+                    ],
+                    [
+                        "N",
+                        {
+                            "args": [
+                                {
+                                    "line": null,
+                                    "original": null,
+                                    "statement": false,
+                                    "tokentype": "Constant",
+                                    "value": "int"
+                                },
+                                {
+                                    "line": null,
+                                    "name": "$in",
+                                    "original": null,
+                                    "primed": false,
+                                    "statement": false,
+                                    "tokentype": "Variable"
+                                }
+                            ],
+                            "line": 5,
+                            "name": "ListHead",
+                            "original": null,
+                            "statement": false,
+                            "tokentype": "Operation"
+                        }
+                    ],
+                    [
+                        "$in",
+                        {
+                            "args": [
+                                {
+                                    "line": null,
+                                    "name": "$in",
+                                    "original": null,
+                                    "primed": false,
+                                    "statement": false,
+                                    "tokentype": "Variable"
+                                }
+                            ],
+                            "line": 5,
+                            "name": "ListTail",
+                            "original": null,
+                            "statement": false,
+                            "tokentype": "Operation"
+                        }
+                    ],
+                    [
+                        "i",
+                        {
+                            "line": 6,
+                            "original": null,
+                            "statement": false,
+                            "tokentype": "Constant",
+                            "value": "1"
+                        }
+                    ]
+                ],
+                "2": [
+                    [
+                        "$cond",
+                        {
+                            "args": [
+                                {
+                                    "line": 6,
+                                    "name": "i",
+                                    "original": null,
+                                    "primed": false,
+                                    "statement": false,
+                                    "tokentype": "Variable"
+                                },
+                                {
+                                    "line": 6,
+                                    "name": "N",
+                                    "original": null,
+                                    "primed": false,
+                                    "statement": false,
+                                    "tokentype": "Variable"
+                                }
+                            ],
+                            "line": 6,
+                            "name": "<=",
+                            "original": null,
+                            "statement": false,
+                            "tokentype": "Operation"
+                        }
+                    ]
+                ],
+                "3": [
+                    [
+                        "$out",
+                        {
+                            "args": [
+                                {
+                                    "line": null,
+                                    "name": "$out",
+                                    "original": null,
+                                    "primed": false,
+                                    "statement": false,
+                                    "tokentype": "Variable"
+                                },
+                                {
+                                    "args": [
+                                        {
+                                            "line": 13,
+                                            "original": null,
+                                            "statement": false,
+                                            "tokentype": "Constant",
+                                            "value": "\"Number of possible triangles is %d\""
+                                        },
+                                        {
+                                            "line": 13,
+                                            "name": "count",
+                                            "original": null,
+                                            "primed": false,
+                                            "statement": false,
+                                            "tokentype": "Variable"
+                                        }
+                                    ],
+                                    "line": 13,
+                                    "name": "StrFormat",
+                                    "original": null,
+                                    "statement": false,
+                                    "tokentype": "Operation"
+                                }
+                            ],
+                            "line": 13,
+                            "name": "StrAppend",
+                            "original": null,
+                            "statement": false,
+                            "tokentype": "Operation"
+                        }
+                    ],
+                    [
+                        "$ret",
+                        {
+                            "line": 18,
+                            "original": null,
+                            "statement": false,
+                            "tokentype": "Constant",
+                            "value": "0"
+                        }
+                    ]
+                ],
+                "4": [
+                    [
+                        "i",
+                        {
+                            "args": [
+                                {
+                                    "line": 6,
+                                    "name": "i",
+                                    "original": null,
+                                    "primed": false,
+                                    "statement": false,
+                                    "tokentype": "Variable"
+                                },
+                                {
+                                    "line": null,
+                                    "original": null,
+                                    "statement": false,
+                                    "tokentype": "Constant",
+                                    "value": "1"
+                                }
+                            ],
+                            "line": 6,
+                            "name": "+",
+                            "original": null,
+                            "statement": false,
+                            "tokentype": "Operation"
+                        }
+                    ]
+                ],
+                "5": [
+                    [
+                        "j",
+                        {
+                            "line": 7,
+                            "original": null,
+                            "statement": false,
+                            "tokentype": "Constant",
+                            "value": "1"
+                        }
+                    ]
+                ],
+                "6": [
+                    [
+                        "$cond",
+                        {
+                            "args": [
+                                {
+                                    "line": 7,
+                                    "name": "j",
+                                    "original": null,
+                                    "primed": false,
+                                    "statement": false,
+                                    "tokentype": "Variable"
+                                },
+                                {
+                                    "line": 7,
+                                    "name": "i",
+                                    "original": null,
+                                    "primed": false,
+                                    "statement": false,
+                                    "tokentype": "Variable"
+                                }
+                            ],
+                            "line": 7,
+                            "name": "<=",
+                            "original": null,
+                            "statement": false,
+                            "tokentype": "Operation"
+                        }
+                    ]
+                ],
+                "7": [],
+                "8": [
+                    [
+                        "j",
+                        {
+                            "args": [
+                                {
+                                    "line": 7,
+                                    "name": "j",
+                                    "original": null,
+                                    "primed": false,
+                                    "statement": false,
+                                    "tokentype": "Variable"
+                                },
+                                {
+                                    "line": null,
+                                    "original": null,
+                                    "statement": false,
+                                    "tokentype": "Constant",
+                                    "value": "1"
+                                }
+                            ],
+                            "line": 7,
+                            "name": "+",
+                            "original": null,
+                            "statement": false,
+                            "tokentype": "Operation"
+                        }
+                    ]
+                ],
+                "9": [
+                    [
+                        "k",
+                        {
+                            "line": 8,
+                            "original": null,
+                            "statement": false,
+                            "tokentype": "Constant",
+                            "value": "1"
+                        }
+                    ]
+                ],
+                "10": [
+                    [
+                        "$cond",
+                        {
+                            "args": [
+                                {
+                                    "line": 8,
+                                    "name": "k",
+                                    "original": null,
+                                    "primed": false,
+                                    "statement": false,
+                                    "tokentype": "Variable"
+                                },
+                                {
+                                    "line": 8,
+                                    "name": "j",
+                                    "original": null,
+                                    "primed": false,
+                                    "statement": false,
+                                    "tokentype": "Variable"
+                                }
+                            ],
+                            "line": 8,
+                            "name": "<=",
+                            "original": null,
+                            "statement": false,
+                            "tokentype": "Operation"
+                        }
+                    ]
+                ],
+                "11": [],
+                "12": [
+                    [
+                        "k",
+                        {
+                            "args": [
+                                {
+                                    "line": 8,
+                                    "name": "k",
+                                    "original": null,
+                                    "primed": false,
+                                    "statement": false,
+                                    "tokentype": "Variable"
+                                },
+                                {
+                                    "line": null,
+                                    "original": null,
+                                    "statement": false,
+                                    "tokentype": "Constant",
+                                    "value": "1"
+                                }
+                            ],
+                            "line": 8,
+                            "name": "+",
+                            "original": null,
+                            "statement": false,
+                            "tokentype": "Operation"
+                        }
+                    ]
+                ],
+                "13": [
+                    [
+                        "count",
+                        {
+                            "args": [
+                                {
+                                    "args": [
+                                        {
+                                            "args": [
+                                                {
+                                                    "args": [
+                                                        {
+                                                            "line": 9,
+                                                            "name": "i",
+                                                            "original": null,
+                                                            "primed": false,
+                                                            "statement": false,
+                                                            "tokentype": "Variable"
+                                                        },
+                                                        {
+                                                            "args": [
+                                                                {
+                                                                    "line": 9,
+                                                                    "name": "j",
+                                                                    "original": null,
+                                                                    "primed": false,
+                                                                    "statement": false,
+                                                                    "tokentype": "Variable"
+                                                                },
+                                                                {
+                                                                    "line": 9,
+                                                                    "name": "k",
+                                                                    "original": null,
+                                                                    "primed": false,
+                                                                    "statement": false,
+                                                                    "tokentype": "Variable"
+                                                                }
+                                                            ],
+                                                            "line": 9,
+                                                            "name": "+",
+                                                            "original": null,
+                                                            "statement": false,
+                                                            "tokentype": "Operation"
+                                                        }
+                                                    ],
+                                                    "line": 9,
+                                                    "name": "<",
+                                                    "original": null,
+                                                    "statement": false,
+                                                    "tokentype": "Operation"
+                                                },
+                                                {
+                                                    "args": [
+                                                        {
+                                                            "line": 9,
+                                                            "name": "j",
+                                                            "original": null,
+                                                            "primed": false,
+                                                            "statement": false,
+                                                            "tokentype": "Variable"
+                                                        },
+                                                        {
+                                                            "args": [
+                                                                {
+                                                                    "line": 9,
+                                                                    "name": "i",
+                                                                    "original": null,
+                                                                    "primed": false,
+                                                                    "statement": false,
+                                                                    "tokentype": "Variable"
+                                                                },
+                                                                {
+                                                                    "line": 9,
+                                                                    "name": "k",
+                                                                    "original": null,
+                                                                    "primed": false,
+                                                                    "statement": false,
+                                                                    "tokentype": "Variable"
+                                                                }
+                                                            ],
+                                                            "line": 9,
+                                                            "name": "+",
+                                                            "original": null,
+                                                            "statement": false,
+                                                            "tokentype": "Operation"
+                                                        }
+                                                    ],
+                                                    "line": 9,
+                                                    "name": "<",
+                                                    "original": null,
+                                                    "statement": false,
+                                                    "tokentype": "Operation"
+                                                }
+                                            ],
+                                            "line": 9,
+                                            "name": "||",
+                                            "original": null,
+                                            "statement": false,
+                                            "tokentype": "Operation"
+                                        },
+                                        {
+                                            "args": [
+                                                {
+                                                    "line": 9,
+                                                    "name": "k",
+                                                    "original": null,
+                                                    "primed": false,
+                                                    "statement": false,
+                                                    "tokentype": "Variable"
+                                                },
+                                                {
+                                                    "args": [
+                                                        {
+                                                            "line": 9,
+                                                            "name": "i",
+                                                            "original": null,
+                                                            "primed": false,
+                                                            "statement": false,
+                                                            "tokentype": "Variable"
+                                                        },
+                                                        {
+                                                            "line": 9,
+                                                            "name": "j",
+                                                            "original": null,
+                                                            "primed": false,
+                                                            "statement": false,
+                                                            "tokentype": "Variable"
+                                                        }
+                                                    ],
+                                                    "line": 9,
+                                                    "name": "+",
+                                                    "original": null,
+                                                    "statement": false,
+                                                    "tokentype": "Operation"
+                                                }
+                                            ],
+                                            "line": 9,
+                                            "name": "<",
+                                            "original": null,
+                                            "statement": false,
+                                            "tokentype": "Operation"
+                                        }
+                                    ],
+                                    "line": 9,
+                                    "name": "||",
+                                    "original": null,
+                                    "statement": false,
+                                    "tokentype": "Operation"
+                                },
+                                {
+                                    "args": [
+                                        {
+                                            "line": 10,
+                                            "name": "count",
+                                            "original": null,
+                                            "primed": false,
+                                            "statement": false,
+                                            "tokentype": "Variable"
+                                        },
+                                        {
+                                            "line": 10,
+                                            "original": null,
+                                            "statement": false,
+                                            "tokentype": "Constant",
+                                            "value": "1"
+                                        }
+                                    ],
+                                    "line": 10,
+                                    "name": "+",
+                                    "original": null,
+                                    "statement": false,
+                                    "tokentype": "Operation"
+                                },
+                                {
+                                    "line": null,
+                                    "name": "count",
+                                    "original": null,
+                                    "primed": false,
+                                    "statement": false,
+                                    "tokentype": "Variable"
+                                }
+                            ],
+                            "line": null,
+                            "name": "ite",
+                            "original": null,
+                            "statement": false,
+                            "tokentype": "Operation"
+                        }
+                    ]
+                ]
+            },
+            "loctrans": {
+                "1": {
+                    "false": null,
+                    "true": 2
+                },
+                "2": {
+                    "false": 3,
+                    "true": 5
+                },
+                "3": {
+                    "false": null,
+                    "true": null
+                },
+                "4": {
+                    "false": null,
+                    "true": 2
+                },
+                "5": {
+                    "false": null,
+                    "true": 6
+                },
+                "6": {
+                    "false": 7,
+                    "true": 9
+                },
+                "7": {
+                    "false": null,
+                    "true": 4
+                },
+                "8": {
+                    "false": null,
+                    "true": 6
+                },
+                "9": {
+                    "false": null,
+                    "true": 10
+                },
+                "10": {
+                    "false": 11,
+                    "true": 13
+                },
+                "11": {
+                    "false": null,
+                    "true": 8
+                },
+                "12": {
+                    "false": null,
+                    "true": 10
+                },
+                "13": {
+                    "false": null,
+                    "true": 12
+                }
+            },
+            "name": "main",
+            "params": [],
+            "rettype": "int",
+            "tokentype": "Function",
+            "types": {
+                "N": "int",
+                "count": "int",
+                "i": "int",
+                "j": "int",
+                "k": "int"
+            }
+        }
+    },
+    "meta": {},
+    "tokentype": "Program",
+    "warns": []
+}

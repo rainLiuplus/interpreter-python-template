@@ -1,0 +1,160 @@
+{
+  "fncs": {
+    "main": {
+      "initloc": 1,
+      "locdescs": {
+        "1": "at the beginning of the function 'main'",
+        "2": "the condition of the 'for' loop at line 3",
+        "3": "*after* the 'for' loop starting at line 3",
+        "4": "update of the 'for' loop at line 3",
+        "5": "inside the body of the 'for' loop beginning at line 3"
+      },
+      "locexprs": {
+        "1": [
+          [
+            "result",
+            {
+              "line": 2,
+              "original": null,
+              "statement": false,
+              "tokentype": "Constant",
+              "value": "0"
+            }
+          ],
+          [
+            "i",
+            {
+              "line": 3,
+              "original": null,
+              "statement": false,
+              "tokentype": "Constant",
+              "value": "0"
+            }
+          ]
+        ],
+        "2": [
+          [
+            "$cond",
+            {
+              "args": [
+                {
+                  "line": 3,
+                  "name": "i",
+                  "original": null,
+                  "primed": false,
+                  "statement": false,
+                  "tokentype": "Variable"
+                },
+                {
+                  "line": 3,
+                  "original": null,
+                  "statement": false,
+                  "tokentype": "Constant",
+                  "value": "5"
+                }
+              ],
+              "line": 3,
+              "name": "<",
+              "original": null,
+              "statement": false,
+              "tokentype": "Operation"
+            }
+          ]
+        ],
+        "3": [],
+        "4": [
+          [
+            "i",
+            {
+              "args": [
+                {
+                  "line": 3,
+                  "name": "i",
+                  "original": null,
+                  "primed": false,
+                  "statement": false,
+                  "tokentype": "Variable"
+                },
+                {
+                  "line": null,
+                  "original": null,
+                  "statement": false,
+                  "tokentype": "Constant",
+                  "value": "1"
+                }
+              ],
+              "line": 3,
+              "name": "+",
+              "original": null,
+              "statement": false,
+              "tokentype": "Operation"
+            }
+          ]
+        ],
+        "5": [
+          [
+            "result",
+            {
+              "args": [
+                {
+                  "line": 4,
+                  "name": "result",
+                  "original": null,
+                  "primed": false,
+                  "statement": false,
+                  "tokentype": "Variable"
+                },
+                {
+                  "line": 4,
+                  "name": "i",
+                  "original": null,
+                  "primed": false,
+                  "statement": false,
+                  "tokentype": "Variable"
+                }
+              ],
+              "line": 4,
+              "name": "+",
+              "original": null,
+              "statement": false,
+              "tokentype": "Operation"
+            }
+          ]
+        ]
+      },
+      "loctrans": {
+        "1": {
+          "false": null,
+          "true": 2
+        },
+        "2": {
+          "false": 3,
+          "true": 5
+        },
+        "3": {
+          "false": null,
+          "true": null
+        },
+        "4": {
+          "false": null,
+          "true": 2
+        },
+        "5": {
+          "false": null,
+          "true": 4
+        }
+      },
+      "name": "main",
+      "params": [],
+      "rettype": "int",
+      "tokentype": "Function",
+      "types": {
+        "i": "int",
+        "result": "int"
+      }
+    }
+  },
+  "meta": {},
+  "tokentype": "Program",
+  "warns": []
+}

@@ -1,0 +1,163 @@
+{
+  "fncs": {
+    "main": {
+      "initloc": 1,
+      "locdescs": {
+        "1": "at the beginning of the function 'main'"
+      },
+      "locexprs": {
+        "1": [
+          [
+            "a",
+            {
+              "line": 2,
+              "original": null,
+              "statement": false,
+              "tokentype": "Constant",
+              "value": "101"
+            }
+          ],
+          [
+            "result",
+            {
+              "args": [
+                {
+                  "args": [
+                    {
+                      "args": [
+                        {
+                          "line": 4,
+                          "name": "a",
+                          "original": null,
+                          "primed": true,
+                          "statement": false,
+                          "tokentype": "Variable"
+                        },
+                        {
+                          "line": 4,
+                          "original": null,
+                          "statement": false,
+                          "tokentype": "Constant",
+                          "value": "3"
+                        }
+                      ],
+                      "line": 4,
+                      "name": "%",
+                      "original": null,
+                      "statement": false,
+                      "tokentype": "Operation"
+                    },
+                    {
+                      "line": 5,
+                      "original": null,
+                      "statement": false,
+                      "tokentype": "Constant",
+                      "value": "0"
+                    }
+                  ],
+                  "line": 5,
+                  "name": "==",
+                  "original": null,
+                  "statement": false,
+                  "tokentype": "Operation"
+                },
+                {
+                  "line": 5,
+                  "original": null,
+                  "statement": false,
+                  "tokentype": "Constant",
+                  "value": "0"
+                },
+                {
+                  "args": [
+                    {
+                      "args": [
+                        {
+                          "args": [
+                            {
+                              "line": 4,
+                              "name": "a",
+                              "original": null,
+                              "primed": true,
+                              "statement": false,
+                              "tokentype": "Variable"
+                            },
+                            {
+                              "line": 4,
+                              "original": null,
+                              "statement": false,
+                              "tokentype": "Constant",
+                              "value": "3"
+                            }
+                          ],
+                          "line": 4,
+                          "name": "%",
+                          "original": null,
+                          "statement": false,
+                          "tokentype": "Operation"
+                        },
+                        {
+                          "line": 6,
+                          "original": null,
+                          "statement": false,
+                          "tokentype": "Constant",
+                          "value": "1"
+                        }
+                      ],
+                      "line": 6,
+                      "name": "==",
+                      "original": null,
+                      "statement": false,
+                      "tokentype": "Operation"
+                    },
+                    {
+                      "line": 6,
+                      "original": null,
+                      "statement": false,
+                      "tokentype": "Constant",
+                      "value": "1"
+                    },
+                    {
+                      "line": 7,
+                      "original": null,
+                      "statement": false,
+                      "tokentype": "Constant",
+                      "value": "2"
+                    }
+                  ],
+                  "line": null,
+                  "name": "ite",
+                  "original": null,
+                  "statement": false,
+                  "tokentype": "Operation"
+                }
+              ],
+              "line": null,
+              "name": "ite",
+              "original": null,
+              "statement": false,
+              "tokentype": "Operation"
+            }
+          ]
+        ]
+      },
+      "loctrans": {
+        "1": {
+          "false": null,
+          "true": null
+        }
+      },
+      "name": "main",
+      "params": [],
+      "rettype": "int",
+      "tokentype": "Function",
+      "types": {
+        "a": "int",
+        "result": "int"
+      }
+    }
+  },
+  "meta": {},
+  "tokentype": "Program",
+  "warns": []
+}

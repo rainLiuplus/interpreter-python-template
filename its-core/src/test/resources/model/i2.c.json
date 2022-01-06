@@ -1,0 +1,78 @@
+ {
+        "fncs": {
+            "main": {
+                "initloc": 1,
+                "locdescs": {
+                    "1": "at the beginning of the function 'main'"
+                },
+                "locexprs": {
+                    "1": [
+                        [
+                            "a",
+                            {
+                                "line": 3,
+                                "original": null,
+                                "statement": false,
+                                "tokentype": "Constant",
+                                "value": "0"
+                            }
+                        ],
+                        [
+                            "b",
+                            {
+                                "args": [
+                                    {
+                                        "line": 4,
+                                        "original": null,
+                                        "statement": false,
+                                        "tokentype": "Constant",
+                                        "value": "5"
+                                    },
+                                    {
+                                        "line": 4,
+                                        "name": "a",
+                                        "original": null,
+                                        "primed": true,
+                                        "statement": false,
+                                        "tokentype": "Variable"
+                                    }
+                                ],
+                                "line": 4,
+                                "name": "+",
+                                "original": null,
+                                "statement": false,
+                                "tokentype": "Operation"
+                            }
+                        ],
+                        [
+                            "$ret",
+                            {
+                                "line": 5,
+                                "original": null,
+                                "statement": false,
+                                "tokentype": "Constant",
+                                "value": "0"
+                            }
+                        ]
+                    ]
+                },
+                "loctrans": {
+                    "1": {
+                        "false": null,
+                        "true": null
+                    }
+                },
+                "name": "main",
+                "params": [],
+                "rettype": "int",
+                "tokentype": "Function",
+                "types": {
+                    "a": "int",
+                    "b": "int"
+                }
+            }
+        },
+        "meta": {},
+        "tokentype": "Program",
+        "warns": []
+    }

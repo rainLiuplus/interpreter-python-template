@@ -1,0 +1,186 @@
+{
+  "fncs": {
+    "fact": {
+      "initloc": 1,
+      "locdescs": {
+        "1": "at the beginning of the function 'fact'"
+      },
+      "locexprs": {
+        "1": [
+          [
+            "$ret",
+            {
+              "args": [
+                {
+                  "args": [
+                    {
+                      "line": 2,
+                      "name": "x",
+                      "original": null,
+                      "primed": false,
+                      "statement": false,
+                      "tokentype": "Variable"
+                    },
+                    {
+                      "line": 2,
+                      "original": null,
+                      "statement": false,
+                      "tokentype": "Constant",
+                      "value": "0"
+                    }
+                  ],
+                  "line": 2,
+                  "name": "==",
+                  "original": null,
+                  "statement": false,
+                  "tokentype": "Operation"
+                },
+                {
+                  "line": 3,
+                  "original": null,
+                  "statement": false,
+                  "tokentype": "Constant",
+                  "value": "1"
+                },
+                {
+                  "args": [
+                    {
+                      "line": 5,
+                      "name": "x",
+                      "original": null,
+                      "primed": false,
+                      "statement": false,
+                      "tokentype": "Variable"
+                    },
+                    {
+                      "args": [
+                        {
+                          "line": 5,
+                          "name": "fact",
+                          "original": null,
+                          "primed": false,
+                          "statement": false,
+                          "tokentype": "Variable"
+                        },
+                        {
+                          "args": [
+                            {
+                              "line": 5,
+                              "name": "x",
+                              "original": null,
+                              "primed": false,
+                              "statement": false,
+                              "tokentype": "Variable"
+                            },
+                            {
+                              "line": 5,
+                              "original": null,
+                              "statement": false,
+                              "tokentype": "Constant",
+                              "value": "1"
+                            }
+                          ],
+                          "line": 5,
+                          "name": "-",
+                          "original": null,
+                          "statement": false,
+                          "tokentype": "Operation"
+                        }
+                      ],
+                      "line": 5,
+                      "name": "FuncCall",
+                      "original": null,
+                      "statement": false,
+                      "tokentype": "Operation"
+                    }
+                  ],
+                  "line": 5,
+                  "name": "*",
+                  "original": null,
+                  "statement": false,
+                  "tokentype": "Operation"
+                }
+              ],
+              "line": null,
+              "name": "ite",
+              "original": null,
+              "statement": false,
+              "tokentype": "Operation"
+            }
+          ]
+        ]
+      },
+      "loctrans": {
+        "1": {
+          "false": null,
+          "true": null
+        }
+      },
+      "name": "fact",
+      "params": [
+        [
+          "x",
+          "int"
+        ]
+      ],
+      "rettype": "int",
+      "tokentype": "Function",
+      "types": {
+        "x": "int"
+      }
+    },
+    "main": {
+      "initloc": 1,
+      "locdescs": {
+        "1": "at the beginning of the function 'main'"
+      },
+      "locexprs": {
+        "1": [
+          [
+            "result",
+            {
+              "args": [
+                {
+                  "line": 9,
+                  "name": "fact",
+                  "original": null,
+                  "primed": false,
+                  "statement": false,
+                  "tokentype": "Variable"
+                },
+                {
+                  "line": 9,
+                  "original": null,
+                  "statement": false,
+                  "tokentype": "Constant",
+                  "value": "5"
+                }
+              ],
+              "line": 9,
+              "name": "FuncCall",
+              "original": null,
+              "statement": false,
+              "tokentype": "Operation"
+            }
+          ]
+        ]
+      },
+      "loctrans": {
+        "1": {
+          "false": null,
+          "true": null
+        }
+      },
+      "name": "main",
+      "params": [],
+      "rettype": "int",
+      "tokentype": "Function",
+      "types": {
+        "result": "int"
+      }
+    }
+  },
+  "meta": {},
+  "tokentype": "Program",
+  "warns": []
+}

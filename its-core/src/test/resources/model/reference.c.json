@@ -1,0 +1,75 @@
+{
+	"fncs": {
+		"main": {
+			"initloc": 1,
+			"locdescs": {
+				"1": "at the beginning of the function 'main'"
+			},
+			"locexprs": {
+				"1": [
+					[
+						"a",
+						{
+							"line": 4,
+							"original": null,
+							"statement": false,
+							"tokentype": "Constant",
+							"value": "0"
+						}
+					],
+					[
+						"b",
+						{
+							"args": [
+								{
+									"line": 5,
+									"original": null,
+									"statement": false,
+									"tokentype": "Constant",
+									"value": "1"
+								},
+								{
+									"line": 5,
+									"name": "a",
+									"original": null,
+									"primed": true,
+									"statement": false,
+									"tokentype": "Variable"
+								}
+							],
+							"line": 5,
+							"name": "+",
+							"original": null,
+							"statement": false,
+							"tokentype": "Operation"
+						}
+					],
+					[
+						"$ret",
+						{
+							"line": 6,
+							"original": null,
+							"statement": false,
+							"tokentype": "Constant",
+							"value": "0"
+						}
+					]
+				]
+			},
+			"loctrans": {
+				"1": {
+					"false": null,
+					"true": null
+				}
+			},
+			"name": "main",
+			"params": [],
+			"rettype": "int",
+			"tokentype": "Function",
+			"types": {
+				"a": "int",
+				"b": "int"
+			}
+		}
+	}
+}

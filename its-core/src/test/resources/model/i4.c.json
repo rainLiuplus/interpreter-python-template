@@ -1,0 +1,953 @@
+{
+        "fncs": {
+            "main": {
+                "initloc": 1,
+                "locdescs": {
+                    "1": "at the beginning of the function 'main'"
+                },
+                "locexprs": {
+                    "1": [
+                        [
+                            "a1",
+                            {
+                                "args": [
+                                    {
+                                        "line": null,
+                                        "original": null,
+                                        "statement": false,
+                                        "tokentype": "Constant",
+                                        "value": "float"
+                                    },
+                                    {
+                                        "line": null,
+                                        "name": "$in",
+                                        "original": null,
+                                        "primed": false,
+                                        "statement": false,
+                                        "tokentype": "Variable"
+                                    }
+                                ],
+                                "line": 5,
+                                "name": "ListHead",
+                                "original": null,
+                                "statement": false,
+                                "tokentype": "Operation"
+                            }
+                        ],
+                        [
+                            "b1",
+                            {
+                                "args": [
+                                    {
+                                        "line": null,
+                                        "original": null,
+                                        "statement": false,
+                                        "tokentype": "Constant",
+                                        "value": "float"
+                                    },
+                                    {
+                                        "args": [
+                                            {
+                                                "line": null,
+                                                "name": "$in",
+                                                "original": null,
+                                                "primed": false,
+                                                "statement": false,
+                                                "tokentype": "Variable"
+                                            }
+                                        ],
+                                        "line": 5,
+                                        "name": "ListTail",
+                                        "original": [
+                                            "$in",
+                                            6
+                                        ],
+                                        "statement": false,
+                                        "tokentype": "Operation"
+                                    }
+                                ],
+                                "line": 5,
+                                "name": "ListHead",
+                                "original": null,
+                                "statement": false,
+                                "tokentype": "Operation"
+                            }
+                        ],
+                        [
+                            "a2",
+                            {
+                                "args": [
+                                    {
+                                        "line": null,
+                                        "original": null,
+                                        "statement": false,
+                                        "tokentype": "Constant",
+                                        "value": "float"
+                                    },
+                                    {
+                                        "args": [
+                                            {
+                                                "args": [
+                                                    {
+                                                        "line": null,
+                                                        "name": "$in",
+                                                        "original": null,
+                                                        "primed": false,
+                                                        "statement": false,
+                                                        "tokentype": "Variable"
+                                                    }
+                                                ],
+                                                "line": 5,
+                                                "name": "ListTail",
+                                                "original": [
+                                                    "$in",
+                                                    6
+                                                ],
+                                                "statement": false,
+                                                "tokentype": "Operation"
+                                            }
+                                        ],
+                                        "line": 5,
+                                        "name": "ListTail",
+                                        "original": [
+                                            "$in",
+                                            7
+                                        ],
+                                        "statement": false,
+                                        "tokentype": "Operation"
+                                    }
+                                ],
+                                "line": 5,
+                                "name": "ListHead",
+                                "original": null,
+                                "statement": false,
+                                "tokentype": "Operation"
+                            }
+                        ],
+                        [
+                            "b2",
+                            {
+                                "args": [
+                                    {
+                                        "line": null,
+                                        "original": null,
+                                        "statement": false,
+                                        "tokentype": "Constant",
+                                        "value": "float"
+                                    },
+                                    {
+                                        "args": [
+                                            {
+                                                "args": [
+                                                    {
+                                                        "args": [
+                                                            {
+                                                                "line": null,
+                                                                "name": "$in",
+                                                                "original": null,
+                                                                "primed": false,
+                                                                "statement": false,
+                                                                "tokentype": "Variable"
+                                                            }
+                                                        ],
+                                                        "line": 5,
+                                                        "name": "ListTail",
+                                                        "original": [
+                                                            "$in",
+                                                            6
+                                                        ],
+                                                        "statement": false,
+                                                        "tokentype": "Operation"
+                                                    }
+                                                ],
+                                                "line": 5,
+                                                "name": "ListTail",
+                                                "original": [
+                                                    "$in",
+                                                    7
+                                                ],
+                                                "statement": false,
+                                                "tokentype": "Operation"
+                                            }
+                                        ],
+                                        "line": 5,
+                                        "name": "ListTail",
+                                        "original": [
+                                            "$in",
+                                            8
+                                        ],
+                                        "statement": false,
+                                        "tokentype": "Operation"
+                                    }
+                                ],
+                                "line": 5,
+                                "name": "ListHead",
+                                "original": null,
+                                "statement": false,
+                                "tokentype": "Operation"
+                            }
+                        ],
+                        [
+                            "$in",
+                            {
+                                "args": [
+                                    {
+                                        "args": [
+                                            {
+                                                "args": [
+                                                    {
+                                                        "args": [
+                                                            {
+                                                                "line": null,
+                                                                "name": "$in",
+                                                                "original": null,
+                                                                "primed": false,
+                                                                "statement": false,
+                                                                "tokentype": "Variable"
+                                                            }
+                                                        ],
+                                                        "line": 5,
+                                                        "name": "ListTail",
+                                                        "original": [
+                                                            "$in",
+                                                            6
+                                                        ],
+                                                        "statement": false,
+                                                        "tokentype": "Operation"
+                                                    }
+                                                ],
+                                                "line": 5,
+                                                "name": "ListTail",
+                                                "original": [
+                                                    "$in",
+                                                    7
+                                                ],
+                                                "statement": false,
+                                                "tokentype": "Operation"
+                                            }
+                                        ],
+                                        "line": 5,
+                                        "name": "ListTail",
+                                        "original": [
+                                            "$in",
+                                            8
+                                        ],
+                                        "statement": false,
+                                        "tokentype": "Operation"
+                                    }
+                                ],
+                                "line": 5,
+                                "name": "ListTail",
+                                "original": null,
+                                "statement": false,
+                                "tokentype": "Operation"
+                            }
+                        ],
+                        [
+                            "$out",
+                            {
+                                "args": [
+                                    {
+                                        "args": [
+                                            {
+                                                "args": [
+                                                    {
+                                                        "line": 6,
+                                                        "name": "a1",
+                                                        "original": null,
+                                                        "primed": true,
+                                                        "statement": false,
+                                                        "tokentype": "Variable"
+                                                    },
+                                                    {
+                                                        "line": 6,
+                                                        "name": "a2",
+                                                        "original": null,
+                                                        "primed": true,
+                                                        "statement": false,
+                                                        "tokentype": "Variable"
+                                                    }
+                                                ],
+                                                "line": 6,
+                                                "name": "/",
+                                                "original": null,
+                                                "statement": false,
+                                                "tokentype": "Operation"
+                                            },
+                                            {
+                                                "args": [
+                                                    {
+                                                        "line": 6,
+                                                        "name": "b1",
+                                                        "original": null,
+                                                        "primed": true,
+                                                        "statement": false,
+                                                        "tokentype": "Variable"
+                                                    },
+                                                    {
+                                                        "line": 6,
+                                                        "name": "b2",
+                                                        "original": null,
+                                                        "primed": true,
+                                                        "statement": false,
+                                                        "tokentype": "Variable"
+                                                    }
+                                                ],
+                                                "line": 6,
+                                                "name": "/",
+                                                "original": null,
+                                                "statement": false,
+                                                "tokentype": "Operation"
+                                            }
+                                        ],
+                                        "line": 6,
+                                        "name": "==",
+                                        "original": null,
+                                        "statement": false,
+                                        "tokentype": "Operation"
+                                    },
+                                    {
+                                        "args": [
+                                            {
+                                                "line": null,
+                                                "name": "$out",
+                                                "original": null,
+                                                "primed": false,
+                                                "statement": false,
+                                                "tokentype": "Variable"
+                                            },
+                                            {
+                                                "args": [
+                                                    {
+                                                        "line": 8,
+                                                        "original": null,
+                                                        "statement": false,
+                                                        "tokentype": "Constant",
+                                                        "value": "\"INF\""
+                                                    }
+                                                ],
+                                                "line": 8,
+                                                "name": "StrFormat",
+                                                "original": null,
+                                                "statement": false,
+                                                "tokentype": "Operation"
+                                            }
+                                        ],
+                                        "line": 8,
+                                        "name": "StrAppend",
+                                        "original": null,
+                                        "statement": false,
+                                        "tokentype": "Operation"
+                                    },
+                                    {
+                                        "args": [
+                                            {
+                                                "line": null,
+                                                "name": "$out",
+                                                "original": null,
+                                                "primed": false,
+                                                "statement": false,
+                                                "tokentype": "Variable"
+                                            },
+                                            {
+                                                "args": [
+                                                    {
+                                                        "line": 14,
+                                                        "original": null,
+                                                        "statement": false,
+                                                        "tokentype": "Constant",
+                                                        "value": "\"(%.3f,%.3f)\""
+                                                    },
+                                                    {
+                                                        "args": [
+                                                            {
+                                                                "args": [
+                                                                    {
+                                                                        "line": 13,
+                                                                        "name": "b2",
+                                                                        "original": null,
+                                                                        "primed": true,
+                                                                        "statement": false,
+                                                                        "tokentype": "Variable"
+                                                                    },
+                                                                    {
+                                                                        "line": 13,
+                                                                        "name": "b1",
+                                                                        "original": null,
+                                                                        "primed": true,
+                                                                        "statement": false,
+                                                                        "tokentype": "Variable"
+                                                                    }
+                                                                ],
+                                                                "line": 13,
+                                                                "name": "-",
+                                                                "original": null,
+                                                                "statement": false,
+                                                                "tokentype": "Operation"
+                                                            },
+                                                            {
+                                                                "args": [
+                                                                    {
+                                                                        "args": [
+                                                                            {
+                                                                                "line": 13,
+                                                                                "name": "b2",
+                                                                                "original": null,
+                                                                                "primed": true,
+                                                                                "statement": false,
+                                                                                "tokentype": "Variable"
+                                                                            },
+                                                                            {
+                                                                                "line": 13,
+                                                                                "name": "a1",
+                                                                                "original": null,
+                                                                                "primed": true,
+                                                                                "statement": false,
+                                                                                "tokentype": "Variable"
+                                                                            }
+                                                                        ],
+                                                                        "line": 13,
+                                                                        "name": "*",
+                                                                        "original": null,
+                                                                        "statement": false,
+                                                                        "tokentype": "Operation"
+                                                                    },
+                                                                    {
+                                                                        "args": [
+                                                                            {
+                                                                                "line": 13,
+                                                                                "name": "b1",
+                                                                                "original": null,
+                                                                                "primed": true,
+                                                                                "statement": false,
+                                                                                "tokentype": "Variable"
+                                                                            },
+                                                                            {
+                                                                                "line": 13,
+                                                                                "name": "a2",
+                                                                                "original": null,
+                                                                                "primed": true,
+                                                                                "statement": false,
+                                                                                "tokentype": "Variable"
+                                                                            }
+                                                                        ],
+                                                                        "line": 13,
+                                                                        "name": "*",
+                                                                        "original": null,
+                                                                        "statement": false,
+                                                                        "tokentype": "Operation"
+                                                                    }
+                                                                ],
+                                                                "line": 13,
+                                                                "name": "-",
+                                                                "original": null,
+                                                                "statement": false,
+                                                                "tokentype": "Operation"
+                                                            }
+                                                        ],
+                                                        "line": 13,
+                                                        "name": "/",
+                                                        "original": [
+                                                            "X",
+                                                            3
+                                                        ],
+                                                        "statement": false,
+                                                        "tokentype": "Operation"
+                                                    },
+                                                    {
+                                                        "args": [
+                                                            {
+                                                                "args": [
+                                                                    {
+                                                                        "line": 12,
+                                                                        "name": "a2",
+                                                                        "original": null,
+                                                                        "primed": true,
+                                                                        "statement": false,
+                                                                        "tokentype": "Variable"
+                                                                    },
+                                                                    {
+                                                                        "line": 12,
+                                                                        "name": "a1",
+                                                                        "original": null,
+                                                                        "primed": true,
+                                                                        "statement": false,
+                                                                        "tokentype": "Variable"
+                                                                    }
+                                                                ],
+                                                                "line": 12,
+                                                                "name": "-",
+                                                                "original": null,
+                                                                "statement": false,
+                                                                "tokentype": "Operation"
+                                                            },
+                                                            {
+                                                                "args": [
+                                                                    {
+                                                                        "args": [
+                                                                            {
+                                                                                "line": 12,
+                                                                                "name": "a2",
+                                                                                "original": null,
+                                                                                "primed": true,
+                                                                                "statement": false,
+                                                                                "tokentype": "Variable"
+                                                                            },
+                                                                            {
+                                                                                "line": 12,
+                                                                                "name": "b1",
+                                                                                "original": null,
+                                                                                "primed": true,
+                                                                                "statement": false,
+                                                                                "tokentype": "Variable"
+                                                                            }
+                                                                        ],
+                                                                        "line": 12,
+                                                                        "name": "*",
+                                                                        "original": null,
+                                                                        "statement": false,
+                                                                        "tokentype": "Operation"
+                                                                    },
+                                                                    {
+                                                                        "args": [
+                                                                            {
+                                                                                "line": 12,
+                                                                                "name": "b2",
+                                                                                "original": null,
+                                                                                "primed": true,
+                                                                                "statement": false,
+                                                                                "tokentype": "Variable"
+                                                                            },
+                                                                            {
+                                                                                "line": 12,
+                                                                                "name": "a1",
+                                                                                "original": null,
+                                                                                "primed": true,
+                                                                                "statement": false,
+                                                                                "tokentype": "Variable"
+                                                                            }
+                                                                        ],
+                                                                        "line": 12,
+                                                                        "name": "*",
+                                                                        "original": null,
+                                                                        "statement": false,
+                                                                        "tokentype": "Operation"
+                                                                    }
+                                                                ],
+                                                                "line": 12,
+                                                                "name": "-",
+                                                                "original": null,
+                                                                "statement": false,
+                                                                "tokentype": "Operation"
+                                                            }
+                                                        ],
+                                                        "line": 12,
+                                                        "name": "/",
+                                                        "original": [
+                                                            "Y",
+                                                            2
+                                                        ],
+                                                        "statement": false,
+                                                        "tokentype": "Operation"
+                                                    }
+                                                ],
+                                                "line": 14,
+                                                "name": "StrFormat",
+                                                "original": null,
+                                                "statement": false,
+                                                "tokentype": "Operation"
+                                            }
+                                        ],
+                                        "line": 14,
+                                        "name": "StrAppend",
+                                        "original": null,
+                                        "statement": false,
+                                        "tokentype": "Operation"
+                                    }
+                                ],
+                                "line": null,
+                                "name": "ite",
+                                "original": null,
+                                "statement": false,
+                                "tokentype": "Operation"
+                            }
+                        ],
+                        [
+                            "Y",
+                            {
+                                "args": [
+                                    {
+                                        "args": [
+                                            {
+                                                "args": [
+                                                    {
+                                                        "line": 6,
+                                                        "name": "a1",
+                                                        "original": null,
+                                                        "primed": true,
+                                                        "statement": false,
+                                                        "tokentype": "Variable"
+                                                    },
+                                                    {
+                                                        "line": 6,
+                                                        "name": "a2",
+                                                        "original": null,
+                                                        "primed": true,
+                                                        "statement": false,
+                                                        "tokentype": "Variable"
+                                                    }
+                                                ],
+                                                "line": 6,
+                                                "name": "/",
+                                                "original": null,
+                                                "statement": false,
+                                                "tokentype": "Operation"
+                                            },
+                                            {
+                                                "args": [
+                                                    {
+                                                        "line": 6,
+                                                        "name": "b1",
+                                                        "original": null,
+                                                        "primed": true,
+                                                        "statement": false,
+                                                        "tokentype": "Variable"
+                                                    },
+                                                    {
+                                                        "line": 6,
+                                                        "name": "b2",
+                                                        "original": null,
+                                                        "primed": true,
+                                                        "statement": false,
+                                                        "tokentype": "Variable"
+                                                    }
+                                                ],
+                                                "line": 6,
+                                                "name": "/",
+                                                "original": null,
+                                                "statement": false,
+                                                "tokentype": "Operation"
+                                            }
+                                        ],
+                                        "line": 6,
+                                        "name": "==",
+                                        "original": null,
+                                        "statement": false,
+                                        "tokentype": "Operation"
+                                    },
+                                    {
+                                        "line": null,
+                                        "name": "Y",
+                                        "original": null,
+                                        "primed": false,
+                                        "statement": false,
+                                        "tokentype": "Variable"
+                                    },
+                                    {
+                                        "args": [
+                                            {
+                                                "args": [
+                                                    {
+                                                        "line": 12,
+                                                        "name": "a2",
+                                                        "original": null,
+                                                        "primed": true,
+                                                        "statement": false,
+                                                        "tokentype": "Variable"
+                                                    },
+                                                    {
+                                                        "line": 12,
+                                                        "name": "a1",
+                                                        "original": null,
+                                                        "primed": true,
+                                                        "statement": false,
+                                                        "tokentype": "Variable"
+                                                    }
+                                                ],
+                                                "line": 12,
+                                                "name": "-",
+                                                "original": null,
+                                                "statement": false,
+                                                "tokentype": "Operation"
+                                            },
+                                            {
+                                                "args": [
+                                                    {
+                                                        "args": [
+                                                            {
+                                                                "line": 12,
+                                                                "name": "a2",
+                                                                "original": null,
+                                                                "primed": true,
+                                                                "statement": false,
+                                                                "tokentype": "Variable"
+                                                            },
+                                                            {
+                                                                "line": 12,
+                                                                "name": "b1",
+                                                                "original": null,
+                                                                "primed": true,
+                                                                "statement": false,
+                                                                "tokentype": "Variable"
+                                                            }
+                                                        ],
+                                                        "line": 12,
+                                                        "name": "*",
+                                                        "original": null,
+                                                        "statement": false,
+                                                        "tokentype": "Operation"
+                                                    },
+                                                    {
+                                                        "args": [
+                                                            {
+                                                                "line": 12,
+                                                                "name": "b2",
+                                                                "original": null,
+                                                                "primed": true,
+                                                                "statement": false,
+                                                                "tokentype": "Variable"
+                                                            },
+                                                            {
+                                                                "line": 12,
+                                                                "name": "a1",
+                                                                "original": null,
+                                                                "primed": true,
+                                                                "statement": false,
+                                                                "tokentype": "Variable"
+                                                            }
+                                                        ],
+                                                        "line": 12,
+                                                        "name": "*",
+                                                        "original": null,
+                                                        "statement": false,
+                                                        "tokentype": "Operation"
+                                                    }
+                                                ],
+                                                "line": 12,
+                                                "name": "-",
+                                                "original": null,
+                                                "statement": false,
+                                                "tokentype": "Operation"
+                                            }
+                                        ],
+                                        "line": 12,
+                                        "name": "/",
+                                        "original": null,
+                                        "statement": false,
+                                        "tokentype": "Operation"
+                                    }
+                                ],
+                                "line": null,
+                                "name": "ite",
+                                "original": null,
+                                "statement": false,
+                                "tokentype": "Operation"
+                            }
+                        ],
+                        [
+                            "X",
+                            {
+                                "args": [
+                                    {
+                                        "args": [
+                                            {
+                                                "args": [
+                                                    {
+                                                        "line": 6,
+                                                        "name": "a1",
+                                                        "original": null,
+                                                        "primed": true,
+                                                        "statement": false,
+                                                        "tokentype": "Variable"
+                                                    },
+                                                    {
+                                                        "line": 6,
+                                                        "name": "a2",
+                                                        "original": null,
+                                                        "primed": true,
+                                                        "statement": false,
+                                                        "tokentype": "Variable"
+                                                    }
+                                                ],
+                                                "line": 6,
+                                                "name": "/",
+                                                "original": null,
+                                                "statement": false,
+                                                "tokentype": "Operation"
+                                            },
+                                            {
+                                                "args": [
+                                                    {
+                                                        "line": 6,
+                                                        "name": "b1",
+                                                        "original": null,
+                                                        "primed": true,
+                                                        "statement": false,
+                                                        "tokentype": "Variable"
+                                                    },
+                                                    {
+                                                        "line": 6,
+                                                        "name": "b2",
+                                                        "original": null,
+                                                        "primed": true,
+                                                        "statement": false,
+                                                        "tokentype": "Variable"
+                                                    }
+                                                ],
+                                                "line": 6,
+                                                "name": "/",
+                                                "original": null,
+                                                "statement": false,
+                                                "tokentype": "Operation"
+                                            }
+                                        ],
+                                        "line": 6,
+                                        "name": "==",
+                                        "original": null,
+                                        "statement": false,
+                                        "tokentype": "Operation"
+                                    },
+                                    {
+                                        "line": null,
+                                        "name": "X",
+                                        "original": null,
+                                        "primed": false,
+                                        "statement": false,
+                                        "tokentype": "Variable"
+                                    },
+                                    {
+                                        "args": [
+                                            {
+                                                "args": [
+                                                    {
+                                                        "line": 13,
+                                                        "name": "b2",
+                                                        "original": null,
+                                                        "primed": true,
+                                                        "statement": false,
+                                                        "tokentype": "Variable"
+                                                    },
+                                                    {
+                                                        "line": 13,
+                                                        "name": "b1",
+                                                        "original": null,
+                                                        "primed": true,
+                                                        "statement": false,
+                                                        "tokentype": "Variable"
+                                                    }
+                                                ],
+                                                "line": 13,
+                                                "name": "-",
+                                                "original": null,
+                                                "statement": false,
+                                                "tokentype": "Operation"
+                                            },
+                                            {
+                                                "args": [
+                                                    {
+                                                        "args": [
+                                                            {
+                                                                "line": 13,
+                                                                "name": "b2",
+                                                                "original": null,
+                                                                "primed": true,
+                                                                "statement": false,
+                                                                "tokentype": "Variable"
+                                                            },
+                                                            {
+                                                                "line": 13,
+                                                                "name": "a1",
+                                                                "original": null,
+                                                                "primed": true,
+                                                                "statement": false,
+                                                                "tokentype": "Variable"
+                                                            }
+                                                        ],
+                                                        "line": 13,
+                                                        "name": "*",
+                                                        "original": null,
+                                                        "statement": false,
+                                                        "tokentype": "Operation"
+                                                    },
+                                                    {
+                                                        "args": [
+                                                            {
+                                                                "line": 13,
+                                                                "name": "b1",
+                                                                "original": null,
+                                                                "primed": true,
+                                                                "statement": false,
+                                                                "tokentype": "Variable"
+                                                            },
+                                                            {
+                                                                "line": 13,
+                                                                "name": "a2",
+                                                                "original": null,
+                                                                "primed": true,
+                                                                "statement": false,
+                                                                "tokentype": "Variable"
+                                                            }
+                                                        ],
+                                                        "line": 13,
+                                                        "name": "*",
+                                                        "original": null,
+                                                        "statement": false,
+                                                        "tokentype": "Operation"
+                                                    }
+                                                ],
+                                                "line": 13,
+                                                "name": "-",
+                                                "original": null,
+                                                "statement": false,
+                                                "tokentype": "Operation"
+                                            }
+                                        ],
+                                        "line": 13,
+                                        "name": "/",
+                                        "original": null,
+                                        "statement": false,
+                                        "tokentype": "Operation"
+                                    }
+                                ],
+                                "line": null,
+                                "name": "ite",
+                                "original": null,
+                                "statement": false,
+                                "tokentype": "Operation"
+                            }
+                        ],
+                        [
+                            "$ret",
+                            {
+                                "line": 18,
+                                "original": null,
+                                "statement": false,
+                                "tokentype": "Constant",
+                                "value": "0"
+                            }
+                        ]
+                    ]
+                },
+                "loctrans": {
+                    "1": {
+                        "false": null,
+                        "true": null
+                    }
+                },
+                "name": "main",
+                "params": [],
+                "rettype": "int",
+                "tokentype": "Function",
+                "types": {
+                    "X": "float",
+                    "Y": "float",
+                    "a1": "float",
+                    "a2": "float",
+                    "b1": "float",
+                    "b2": "float"
+                }
+            }
+        }
+}
+		
+		

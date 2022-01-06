@@ -1,0 +1,127 @@
+{
+  "fncs": {
+    "main": {
+      "initloc": 1,
+      "locdescs": {
+        "1": "at the beginning of the function 'main'"
+      },
+      "locexprs": {
+        "1": [
+          [
+            "a",
+            {
+              "args": [
+                {
+                  "args": [
+                    {
+                      "args": [
+                        {
+                          "args": [
+                            {
+                              "line": 2,
+                              "original": null,
+                              "statement": false,
+                              "tokentype": "Constant",
+                              "value": "5"
+                            }
+                          ],
+                          "line": 2,
+                          "name": "ArrayCreate",
+                          "original": [
+                            "a",
+                            1
+                          ],
+                          "statement": false,
+                          "tokentype": "Operation"
+                        },
+                        {
+                          "line": 3,
+                          "original": null,
+                          "statement": false,
+                          "tokentype": "Constant",
+                          "value": "0"
+                        },
+                        {
+                          "line": 3,
+                          "original": null,
+                          "statement": false,
+                          "tokentype": "Constant",
+                          "value": "1"
+                        }
+                      ],
+                      "line": 3,
+                      "name": "ArrayAssign",
+                      "original": [
+                        "a",
+                        2
+                      ],
+                      "statement": false,
+                      "tokentype": "Operation"
+                    },
+                    {
+                      "line": 4,
+                      "original": null,
+                      "statement": false,
+                      "tokentype": "Constant",
+                      "value": "1"
+                    },
+                    {
+                      "line": 4,
+                      "original": null,
+                      "statement": false,
+                      "tokentype": "Constant",
+                      "value": "2"
+                    }
+                  ],
+                  "line": 4,
+                  "name": "ArrayAssign",
+                  "original": [
+                    "a",
+                    3
+                  ],
+                  "statement": false,
+                  "tokentype": "Operation"
+                },
+                {
+                  "line": 5,
+                  "original": null,
+                  "statement": false,
+                  "tokentype": "Constant",
+                  "value": "2"
+                },
+                {
+                  "line": 5,
+                  "original": null,
+                  "statement": false,
+                  "tokentype": "Constant",
+                  "value": "3"
+                }
+              ],
+              "line": 5,
+              "name": "ArrayAssign",
+              "original": null,
+              "statement": false,
+              "tokentype": "Operation"
+            }
+          ]
+        ]
+      },
+      "loctrans": {
+        "1": {
+          "false": null,
+          "true": null
+        }
+      },
+      "name": "main",
+      "params": [],
+      "rettype": "int",
+      "tokentype": "Function",
+      "types": {
+        "a": "int[]"
+      }
+    }
+  },
+  "meta": {},
+  "tokentype": "Program",
+  "warns": []
+}

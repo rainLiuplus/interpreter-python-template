@@ -1,0 +1,158 @@
+{
+  "fncs": {
+    "main": {
+      "initloc": 1,
+      "locdescs": {
+        "1": "at the beginning of the function 'main'"
+      },
+      "locexprs": {
+        "1": [
+          [
+            "c",
+            {
+              "args": [
+                {
+                  "line": 2,
+                  "original": null,
+                  "statement": false,
+                  "tokentype": "Constant",
+                  "value": "22"
+                },
+                {
+                  "line": 2,
+                  "original": null,
+                  "statement": false,
+                  "tokentype": "Constant",
+                  "value": "33"
+                }
+              ],
+              "line": 2,
+              "name": "*",
+              "original": null,
+              "statement": false,
+              "tokentype": "Operation"
+            }
+          ],
+          [
+            "$out",
+            {
+              "args": [
+                {
+                  "args": [
+                    {
+                      "line": 3,
+                      "name": "c",
+                      "original": null,
+                      "primed": true,
+                      "statement": false,
+                      "tokentype": "Variable"
+                    },
+                    {
+                      "line": 3,
+                      "original": null,
+                      "statement": false,
+                      "tokentype": "Constant",
+                      "value": "200"
+                    }
+                  ],
+                  "line": 3,
+                  "name": ">",
+                  "original": null,
+                  "statement": false,
+                  "tokentype": "Operation"
+                },
+                {
+                  "args": [
+                    {
+                      "line": null,
+                      "name": "$out",
+                      "original": null,
+                      "primed": false,
+                      "statement": false,
+                      "tokentype": "Variable"
+                    },
+                    {
+                      "args": [
+                        {
+                          "line": 4,
+                          "original": null,
+                          "statement": false,
+                          "tokentype": "Constant",
+                          "value": "\"larger\\n\""
+                        }
+                      ],
+                      "line": 4,
+                      "name": "StrFormat",
+                      "original": null,
+                      "statement": false,
+                      "tokentype": "Operation"
+                    }
+                  ],
+                  "line": 4,
+                  "name": "StrAppend",
+                  "original": null,
+                  "statement": false,
+                  "tokentype": "Operation"
+                },
+                {
+                  "args": [
+                    {
+                      "line": null,
+                      "name": "$out",
+                      "original": null,
+                      "primed": false,
+                      "statement": false,
+                      "tokentype": "Variable"
+                    },
+                    {
+                      "args": [
+                        {
+                          "line": 6,
+                          "original": null,
+                          "statement": false,
+                          "tokentype": "Constant",
+                          "value": "\"smaller\\n\""
+                        }
+                      ],
+                      "line": 6,
+                      "name": "StrFormat",
+                      "original": null,
+                      "statement": false,
+                      "tokentype": "Operation"
+                    }
+                  ],
+                  "line": 6,
+                  "name": "StrAppend",
+                  "original": null,
+                  "statement": false,
+                  "tokentype": "Operation"
+                }
+              ],
+              "line": null,
+              "name": "ite",
+              "original": null,
+              "statement": false,
+              "tokentype": "Operation"
+            }
+          ]
+        ]
+      },
+      "loctrans": {
+        "1": {
+          "false": null,
+          "true": null
+        }
+      },
+      "name": "main",
+      "params": [],
+      "rettype": "int",
+      "tokentype": "Function",
+      "types": {
+        "c": "int"
+      }
+    }
+  },
+  "meta": {},
+  "tokentype": "Program",
+  "warns": []
+}

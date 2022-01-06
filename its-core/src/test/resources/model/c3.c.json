@@ -1,0 +1,112 @@
+{
+    "fncs": {
+        "main": {
+            "initloc": 1,
+            "locdescs": {
+                "1": "at the beginning of the function 'main'"
+            },
+            "locexprs": {
+                "1": [
+                    [
+                        "a",
+                        {
+                            "line": 3,
+                            "original": null,
+                            "statement": false,
+                            "tokentype": "Constant",
+                            "value": "1"
+                        }
+                    ],
+                    [
+                        "b",
+                        {
+                            "line": 4,
+                            "original": null,
+                            "statement": false,
+                            "tokentype": "Constant",
+                            "value": "0"
+                        }
+                    ],
+                    [
+                        "c",
+                        {
+                            "args": [
+                                {
+                                    "args": [
+                                        {
+                                            "line": 6,
+                                            "name": "a",
+                                            "original": null,
+                                            "primed": true,
+                                            "statement": false,
+                                            "tokentype": "Variable"
+                                        },
+                                        {
+                                            "line": 6,
+                                            "original": null,
+                                            "statement": false,
+                                            "tokentype": "Constant",
+                                            "value": "1"
+                                        }
+                                    ],
+                                    "line": 6,
+                                    "name": "==",
+                                    "original": null,
+                                    "statement": false,
+                                    "tokentype": "Operation"
+                                },
+                                {
+                                    "line": 7,
+                                    "original": null,
+                                    "statement": false,
+                                    "tokentype": "Constant",
+                                    "value": "1"
+                                },
+                                {
+                                    "line": 5,
+                                    "original": null,
+                                    "statement": false,
+                                    "tokentype": "Constant",
+                                    "value": "0"
+                                }
+                            ],
+                            "line": null,
+                            "name": "ite",
+                            "original": null,
+                            "statement": false,
+                            "tokentype": "Operation"
+                        }
+                    ],
+                    [
+                        "$ret",
+                        {
+                            "line": 9,
+                            "original": null,
+                            "statement": false,
+                            "tokentype": "Constant",
+                            "value": "0"
+                        }
+                    ]
+                ]
+            },
+            "loctrans": {
+                "1": {
+                    "false": null,
+                    "true": null
+                }
+            },
+            "name": "main",
+            "params": [],
+            "rettype": "int",
+            "tokentype": "Function",
+            "types": {
+                "a": "int",
+                "b": "int",
+                "c": "int"
+            }
+        }
+    },
+    "meta": {},
+    "tokentype": "Program",
+    "warns": []
+}

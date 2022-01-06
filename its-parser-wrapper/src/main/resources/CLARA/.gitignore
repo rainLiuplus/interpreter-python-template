@@ -1,0 +1,5 @@
+.python-version
+/build/*
+clara/*.so
+clara/__pycache__/
+clara.egg-info/PKG-INFO
